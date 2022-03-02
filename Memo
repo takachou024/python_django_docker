@@ -1,3 +1,2 @@
 参考動画:https://youtu.be/XDaQAmkDFX4
-
-
+$ sudo docker-compose run web django-admin startproject djangotutorial .
