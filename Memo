@@ -1,2 +1,8 @@
 参考動画:https://youtu.be/XDaQAmkDFX4
 $ sudo docker-compose run web django-admin startproject djangotutorial .
+$ sudo chown -R $USER:USER .
+docker-compose upで初期画面確認
+
+docker exec コンテナイメージ名(python_django_docker-web-1) python manage.py startapp greet
+greetが作成される
+
